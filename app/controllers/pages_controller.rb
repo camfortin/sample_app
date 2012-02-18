@@ -10,7 +10,11 @@ class PagesController < ApplicationController
   def about
     @title = "About"  
   end
-    
+  
+  def heko
+    @title = "Help"
+  end
+      
   def sandbox
     @title = "Sandbox"  
   end
