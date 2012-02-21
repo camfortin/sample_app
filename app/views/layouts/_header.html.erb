@@ -1,0 +1,13 @@
+ <header>
+    <% logo = image_tag("logo.png", :alt => "Sample App", :class => "round" ) %>
+    <%= link_to logo, root_path %>    
+<nav class="round">
+      <ul>
+        <li class="round"><%= link_to "About", about_path %></li>
+        <li class="round"><%= link_to "Help", help_path %></li>
+        <li class="round"><%= link_to "Sign In", '#' %></li>
+        <li class="round"><%= link_to "Sandbox", sandbox_path %></li>
+        <li class="round"><a href="http://twitter.com/#!/bolinasco">@BolinasCo</a></li>
+      </ul>
+    </nav>
+ </header>
