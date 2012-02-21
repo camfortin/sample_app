@@ -3,7 +3,6 @@ SampleApp::Application.routes.draw do
   match '/about',   :to => 'pages#about'
   match '/help',    :to => 'pages#help'
   match '/sandbox', :to => 'pages#sandbox'
-  match '/home',    :to => 'pages#home'
   
   root :to => 'pages#home'
   
