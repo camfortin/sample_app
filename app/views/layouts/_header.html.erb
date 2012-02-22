@@ -1,13 +1,13 @@
  <header>
-    <% logo = image_tag("logo.png", :alt => "Sample App", :class => "round" ) %>
+    <% logo = image_tag("cam_fortin.png", :alt => "Cam Fortin", :class => "round" ) %>
     <%= link_to logo, root_path %>    
-<nav class="round">
+<nav>
       <ul>
         <li class="round"><%= link_to "About", about_path %></li>
-        <li class="round"><%= link_to "Help", help_path %></li>
-        <li class="round"><%= link_to "Sign In", '#' %></li>
-        <li class="round"><%= link_to "Sandbox", sandbox_path %></li>
-        <li class="round"><a href="http://twitter.com/#!/bolinasco">@BolinasCo</a></li>
+        <li class="round"><%= link_to "Blog", blog_path %></li>
+        <li class="round"><%= link_to "Sign In", signup_path %></li>
+        <li class="round"><%= link_to "Photos", photos_path %></li>
+        <li class="round"><a href="http://twitter.com/#!/camfortin">@CamFortin</a></li>
       </ul>
     </nav>
  </header>

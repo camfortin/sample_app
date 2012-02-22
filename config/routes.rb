@@ -5,8 +5,8 @@ SampleApp::Application.routes.draw do
 
   match '/contact', :to => 'pages#contact'
   match '/about',   :to => 'pages#about'
-  match '/help',    :to => 'pages#help'
-  match '/sandbox', :to => 'pages#sandbox'
+  match '/blog',    :to => 'pages#blog'
+  match '/photos', :to => 'pages#photos'
   
   root :to => 'pages#home'
   

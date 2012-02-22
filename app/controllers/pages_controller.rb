@@ -11,12 +11,12 @@ class PagesController < ApplicationController
     @title = "About"  
   end
   
-  def heko
-    @title = "Help"
+  def blog
+    @title = "Blog"
   end
       
-  def sandbox
-    @title = "Sandbox"  
+  def photos
+    @title = "Photos"  
   end
 
 end
