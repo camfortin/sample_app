@@ -1,22 +1,22 @@
 class PagesController < ApplicationController
   def home
-    @title = "Home"
+    @title = "camfortin.com"
   end
 
   def contact
-    @title = "Contact"
+    @title = "contact"
   end
 
   def about
-    @title = "About"  
+    @title = "about"  
   end
   
   def blog
-    @title = "Blog"
+    @title = "blog"
   end
       
   def photos
-    @title = "Photos"  
+    @title = "photos"  
   end
 
 end
