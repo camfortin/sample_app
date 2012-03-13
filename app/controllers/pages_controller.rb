@@ -18,5 +18,8 @@ class PagesController < ApplicationController
   def photos
     @title = "photos"  
   end
-
+  
+  def benny
+    @title = "benny's love generator"
+  end
 end

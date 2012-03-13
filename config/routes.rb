@@ -1,5 +1,10 @@
 SampleApp::Application.routes.draw do
+  
+  get "random/index"
+  get "random/show"
+
   get "users/new"
+
     
   match '/signup', :to => 'users#new'
 
@@ -7,6 +12,7 @@ SampleApp::Application.routes.draw do
   match '/about',   :to => 'pages#about'
   match '/blog',    :to => 'pages#blog'
   match '/photos', :to => 'pages#photos'
+  match '/benny', :to => 'pages#benny'
   
   root :to => 'pages#home'
   
