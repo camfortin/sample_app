@@ -1,7 +1,5 @@
 <header>
-    <% logo = image_tag("cam_fortin.png", :alt => "Cam Fortin", :class => "round" ) %>
-    <%= link_to logo, root_path %>    
-  <nav class="round">
+	<nav class="round">
       <ul>
         <li><%= link_to "About", about_path %></li>
         <li><%= link_to "Blog", blog_path %></li>
@@ -11,4 +9,7 @@
         <li><a href="http://twitter.com/#!/camfortin">@CamFortin</a></li>
       </ul>
   </nav>
+    <% logo = image_tag("cam_fortin.png", :alt => "Cam Fortin", :class => "round" ) %>
+    <%= link_to logo, root_path %>    
+
 </header>
