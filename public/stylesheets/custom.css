@@ -6,11 +6,6 @@
 
 
 /* Navigation */
-fb { 
-	float: left;
-	padding: 0 0.7em;
-  }
-
 nav {
   float: right;
   background-color: #E02F76;
@@ -32,6 +27,7 @@ nav ul li {
 nav ul li a {
   padding: 0 5px;
   font-weight: bold;
+  font-size: 1.3em;
   color: #fff;
   }
   
@@ -92,6 +88,22 @@ footer nav {
   float: none;
   }
   
+/* Benny */
+H1.benny {
+  color: #E02F76;
+}
+
+/* Soft */
+
+p.soft {
+  float: right;
+  text-align: right;
+  width: 300px;
+  color: gray;
+  font-size: 100%;
+  padding-top: 10px;
+  }
+
 /* Sign up button */
 
 a.signup_button {

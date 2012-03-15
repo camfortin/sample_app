@@ -1,6 +1,6 @@
 class RandomController < ApplicationController
   def new
-    @title = "sign up"
+    @title = "random"
   end
   def index
   end

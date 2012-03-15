@@ -2,7 +2,14 @@
 <html>
   <head>
     <title><%= title %></title>
-    <%= csrf_meta_tag %>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"></script>
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/swfobject/2.2/swfobject.js"></script>
+	<!--[if lt IE 9]>
+	  <script type="text/javascript" src="/js/excanvas/excanvas.js"></script>
+	<![endif]-->
+	<script type="text/javascript" src="/javascripts/spinners.js"></script>
+	<script type="text/javascript" src="/javascripts/lightview.js"></script>
+	<%= csrf_meta_tag %>
     <%= render 'layouts/stylesheets' %>
   </head>
   <body>
