@@ -2,13 +2,20 @@
   width: 850px;
 }
 
-/*Facebook */
+/*Chill Out the Header Texts */
 
+H1 {
+ color: #09c;
+}
+
+H2, H3, H4, H5, H6, p, li {
+ color: #616060;
+}
 
 /* Navigation */
 nav {
   float: right;
-  background-color: #E02F76;
+
   padding: 0 0.7em;
   white-space: nowrap;
   }
@@ -28,7 +35,7 @@ nav ul li a {
   padding: 0 5px;
   font-weight: bold;
   font-size: 1.3em;
-  color: #fff;
+  color: #09c;
   }
   
 nav ul li a:hover {
@@ -81,7 +88,7 @@ footer {
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 10px;
-  background: #cff;
+  background: #fff;
   }
   
 footer nav {
@@ -96,8 +103,7 @@ footer nav {
 
 /* Soft */
 
-.soft {
-  float: right;
+.soft { 
   text-align: right;
   color: gray;
   font-size: 100%;
