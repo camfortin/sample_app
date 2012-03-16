@@ -5,12 +5,19 @@
 /*Chill Out the Header Texts */
 
 H1 {
- color: #09c;
-}
+  margin-left: auto;
+  margin-right: auto;
+  color: #fff;
+  background: #09c;
+  padding: 10px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  }
 
 H2, H3, H4, H5, H6, p, li {
  color: #616060;
-}
+  }
 
 /* Navigation */
 nav {
