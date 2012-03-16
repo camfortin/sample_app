@@ -105,7 +105,11 @@ footer nav {
 /* Benny */
 
 .benny {
-  color: #E02F76;
+  color: #fff;
+  width: 600px;
+  height: 100px;
+  background: #09c;
+  padding: 10px;
   }
 
 /* Soft */
@@ -143,4 +147,13 @@ a.signup_button {
 .smallpic {
   float: right;
   width: 20%;
+  }
+
+a.submit {
+  color: #fff;
+  background: #E02F76;
+  font-weight: bold;
+  width: 100px;
+  padding: 5px;
+  font-size: 125%;
   }
