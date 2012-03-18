@@ -13,6 +13,7 @@ SampleApp::Application.routes.draw do
   match '/blog',    :to => 'pages#blog'
   match '/photos', :to => 'pages#photos'
   match '/benny', :to => 'pages#benny'
+  match '/photos/cascade-falls', :to => 'pages#cascade'
   
   root :to => 'pages#home'
   

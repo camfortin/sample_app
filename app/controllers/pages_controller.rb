@@ -22,4 +22,8 @@ class PagesController < ApplicationController
   def benny
     @title = "benny's love generator"
   end
+  
+  def cascade
+    @title = "cascade falls"
+  end
 end
