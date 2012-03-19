@@ -1,13 +1,13 @@
 <header>
   <nav class="round">
       <ul>
-        <li><%= link_to "About", about_path %></li>
-        <li><%= link_to "Blog", blog_path %></li>
-        <li><%= link_to "Photos", photos_path %></li>
-        <li><%= link_to "Benny", benny_path %></li>
-        <li><a href="http://twitter.com/#!/camfortin">@CamFortin</a></li>
+        <li><%= link_to "photos", photos_path %></li>
+        <li><%= link_to "goals", goals_path %></li>
+        <li><%= link_to "about", about_path %></li>
+        <li><%= link_to "blog", blog_path %></li>
+        <li><%= link_to "benny", benny_path %></li>
+        <li><a href="http://twitter.com/#!/camfortin">@camfortin</a></li>
       </ul>
   </nav>
-    <% logo = image_tag("cam_fortin.png", :alt => "Cam Fortin", :class => "round" ) %>
-    <%= link_to logo, root_path %>    
+   <h1 class="title"><%= link_to "camfortin.com", root_path, :class => 'title' %></h1>
 </header>

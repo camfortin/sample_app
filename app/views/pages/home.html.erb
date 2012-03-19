@@ -1,9 +1,10 @@
-<h1>Cam's Rails App in Progress</h1>
+<h1>cam's rails app in progress</h1>
 
-<p>
-<a href="http://www.twitter.com/#!/camfortin">@camfortin</a> | <a href="http://www.funjai.com">my tumblr</a> | <a href="http://humblephoto.com/">my photo portfolio </a>
-<p>
+<%= link_to "benny love generator!", benny_path, :class => "signup_button round" %>
 
-<%= link_to "Benny Love Generator!", benny_path, :class => "signup_button round" %>
-
-
+<ul>
+<li><%= link_to "photos", photos_path, :class => "bloglinks" %></li>
+<li><%= link_to "goals", goals_path, :class => "bloglinks" %></li>
+<li><%= link_to "blog", blog_path, :class => "bloglinks" %></li>
+<li><a href="http://twitter.com/#!/camfortin" class="bloglinks">@camfortin</a></li>
+</ul>

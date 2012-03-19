@@ -2,6 +2,19 @@
   width: 850px;
 }
 
+/*Title*/
+
+H1.title {
+  margin-left: 10px;
+  margin-top: -15px;
+  background: none;
+  }
+
+a.title {
+  color: #E02F76;
+}
+
+
 /*Chill Out the Header Texts */
 
 H1 {
@@ -22,8 +35,8 @@ H2, H3, H4, H5, H6, p, li {
 /* Navigation */
 nav {
   float: right;
-
-  padding: 0 0.7em;
+  margin-top: -10px;
+  padding: 0em .7em;
   white-space: nowrap;
   }
 
@@ -54,11 +67,8 @@ body {
 }
 
 header {
+  margin-top: 10px;
   padding-top: 10px;
-}
-
-header img {
-  padding: 1em;
 }
 
 section {
@@ -155,5 +165,11 @@ a.submit {
   font-weight: bold;
   width: 100px;
   padding: 5px;
+  font-size: 125%;
+  }
+
+a.bloglinks {
+  color: #E02F76;
+  font-weight: bold;
   font-size: 125%;
   }

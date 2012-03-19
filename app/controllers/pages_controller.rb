@@ -26,4 +26,8 @@ class PagesController < ApplicationController
   def cascade
     @title = "cascade falls"
   end
+  
+  def goals
+    @title = "goals"
+  end
 end
