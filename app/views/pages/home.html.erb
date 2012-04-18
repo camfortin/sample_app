@@ -1,10 +1,41 @@
 <h1>cam's rails app in progress</h1>
 
-<%= link_to "benny love generator!", benny_path, :class => "signup_button round" %>
+<div class="subnav">
+  <ul class="nav nav-pills">
+    <li><%= link_to "benny love generator!", benny_path, :class => "signup_button round" %></li>
+	<li><%= link_to "photos", photos_path, :class => "bloglinks" %></li>
+	<li><%= link_to "goals", goals_path, :class => "bloglinks" %></li>
+	<li><%= link_to "blog", blog_path, :class => "bloglinks" %></li>
+  </ul>
+</div>
 
-<ul>
-<li><%= link_to "photos", photos_path, :class => "bloglinks" %></li>
-<li><%= link_to "goals", goals_path, :class => "bloglinks" %></li>
-<li><%= link_to "blog", blog_path, :class => "bloglinks" %></li>
-<li><a href="http://twitter.com/#!/camfortin" class="bloglinks">@camfortin</a></li>
-</ul>
+<div class="span8 columns">
+  <h2>Plants Over Time #1: Ice Plant</h2>
+  <p>A sequence of an Ice Plant blooming!</p>
+  <div id="myCarousel" class="carousel slide">
+    <div class="carousel-inner">
+      <div class="item active">
+        <img src="http://farm6.staticflickr.com/5187/5629796525_fef357c0cf_z.jpg" alt="">
+        <div class="carousel-caption">
+          <h4>Ice Plant #1</h4>
+          <p>An Ice Plant just starting to bloom.</p>
+        </div>
+      </div>
+      <div class="item">
+        <img src="http://farm6.staticflickr.com/5110/5630380346_39a58b0c0e_z.jpg" alt="">
+        <div class="carousel-caption">
+          <h4>Ice Plant #2</h4>
+          <p>Ice Plant bloom half way open.</p>
+        </div>
+      </div>
+      <div class="item">
+        <img src="http://farm6.staticflickr.com/5147/5629797037_bdea8df7bd_z.jpg" alt="">
+        <div class="carousel-caption">
+          <h4>Ice Plant #3</h4>
+          <p>Fully developed Ice Plant blossom.</p>
+        </div>
+      </div>
+    </div>
+    <a class="left carousel-control" href="#myCarousel" data-slide="prev">&lsaquo;</a>
+    <a class="right carousel-control" href="#myCarousel" data-slide="next">&rsaquo;</a>
+  </div>

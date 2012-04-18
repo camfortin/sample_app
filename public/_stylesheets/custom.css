@@ -1,0 +1,175 @@
+.container {
+  width: 850px;
+}
+
+/*Title*/
+
+H1.title {
+  margin-left: 10px;
+  margin-top: -15px;
+  background: none;
+  }
+
+a.title {
+  color: #E02F76;
+}
+
+
+/*Chill Out the Header Texts */
+
+H1 {
+  margin-left: auto;
+  margin-right: auto;
+  color: #fff;
+  background: #09c;
+  padding: 10px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  }
+
+H2, H3, H4, H5, H6, p, li {
+ color: #616060;
+  }
+
+/* Navigation */
+nav {
+  float: right;
+  margin-top: -10px;
+  padding: 0em .7em;
+  white-space: nowrap;
+  }
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  }
+
+nav ul li {
+  list-style-type: none;
+  display: inline-block;
+  padding: 0.2em 0;
+  }
+  
+nav ul li a {
+  padding: 0 5px;
+  font-weight: bold;
+  font-size: 1.3em;
+  color: #09c;
+  }
+  
+nav ul li a:hover {
+  text-decoration: underline;
+  }
+
+body {
+  background: #E3E3E3;
+}
+
+header {
+  margin-top: 10px;
+  padding-top: 10px;
+}
+
+section {
+  margin-top: 1em;
+  font-size: 120%;
+  padding: 20px;
+  background: #fff;
+}
+
+section h1 {
+  font-size: 200%;
+}
+
+/* Links */
+
+a {
+  color: #09c;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:visited {
+}
+
+/* Footer */
+
+footer {
+  text-align: center;
+  margin-top: 20px;
+  width: 850px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+  background: #fff;
+  }
+  
+footer nav {
+  float: none;
+  }
+  
+/* Benny */
+
+.benny {
+  color: #fff;
+  width: 600px;
+  height: 100px;
+  background: #09c;
+  padding: 10px;
+  }
+
+/* Soft */
+
+.soft { 
+  text-align: right;
+  color: gray;
+  font-size: 100%;
+  padding-top: 10px;
+  }
+
+/* Sign up button */
+
+a.signup_button {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  text-align: center;
+  width: 275px;
+  color: #fff;
+  background: #E02F76;
+  font-size: 150%;
+  font-weight: bold;
+  padding: 10px;
+  }
+  
+/* Round corners */
+
+.round {
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  }
+
+.smallpic {
+  float: right;
+  width: 20%;
+  }
+
+a.submit {
+  color: #fff;
+  background: #E02F76;
+  font-weight: bold;
+  width: 100px;
+  padding: 5px;
+  font-size: 125%;
+  }
+
+a.bloglinks {
+  color: #E02F76;
+  font-weight: bold;
+  font-size: 125%;
+  }

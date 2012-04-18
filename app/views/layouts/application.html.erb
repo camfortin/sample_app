@@ -1,26 +1,17 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title><%= title %></title>
-    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"></script>
-	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.18/jquery-ui.min.js"></script>
-	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/swfobject/2.2/swfobject.js"></script>	
-	<!--[if lt IE 9]>
-	  <script type="text/javascript" src="/js/excanvas/excanvas.js"></script>
-	<![endif]-->
-	<script type="text/javascript" src="/javascripts/spinners.js"></script>
-	<script type="text/javascript" src="/javascripts/lightview.js"></script>
-	<%= csrf_meta_tag %>
-    <%= render 'layouts/stylesheets' %>
+  <title><%= title %></title>
+  <%= stylesheet_link_tag    "application", :media => "all" %>
+  <%= javascript_include_tag "application" %>
+  <%= csrf_meta_tags %>
   </head>
   <body>
-    <div class="container">
-	  <%= render 'layouts/header' %>
-      <section class="round">
-        <%= yield %>
-      </section>
-       <%= render 'layouts/footer' %>
-       <%= debug(params) if Rails.env.development? %>
-    </div>
+	<div class="container">
+	<%= render 'layouts/header' %>
+	<%= yield %>
+	<%= render 'layouts/footer' %>
+    <%= debug(params) if Rails.env.development? %>
+	</div>
   </body>
 </html>

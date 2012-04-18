@@ -1,13 +1,23 @@
-<header>
-  <nav class="round">
-      <ul>
+<div class="navbar navbar-fixed-top">
+  <div class="navbar-inner test">
+    <div class="container test">
+      <a class="brand" href="/">cam fortin</a>
+      <ul class="nav">
         <li><%= link_to "photos", photos_path %></li>
         <li><%= link_to "goals", goals_path %></li>
         <li><%= link_to "about", about_path %></li>
         <li><%= link_to "blog", blog_path %></li>
         <li><%= link_to "benny", benny_path %></li>
+        <li><%= link_to "sandbox", sandbox_path %></li>
         <li><a href="http://twitter.com/#!/camfortin">@camfortin</a></li>
+		</ul>
+		</li>
+		
       </ul>
-  </nav>
-   <h1 class="title"><%= link_to "camfortin.com", root_path, :class => 'title' %></h1>
-</header>
+      <ul class="nav pull-right">
+        <li><a href="/sign_in">Sign In</a></li>
+        <li><a href="/users/new">Sign Up</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
