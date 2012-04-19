@@ -15,6 +15,7 @@ SampleApp::Application.routes.draw do
   match '/benny', :to => 'pages#benny'
   match '/goals', :to => 'pages#goals'
   match '/photos/cascade-falls', :to => 'pages#cascade'
+  match '/fluid', :to => 'pages#fluid'
   
   root :to => 'pages#home'
   
@@ -24,7 +25,6 @@ end
   # get "pages/contact"
   # get "pages/about"
   # get "pages/sandbox"
- 
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
