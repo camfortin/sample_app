@@ -11,8 +11,9 @@ end
 # in production environments by default.
 group :assets do
   gem 'sass-rails',   '3.2.4'
+  gem 'bootstrap-sass', '~> 2.0.2'
   gem 'coffee-rails', '3.2.2'
-  gem 'less-rails-bootstrap'
+#gem 'less-rails-bootstrap'
   gem 'uglifier', '1.2.3'
 end
 
