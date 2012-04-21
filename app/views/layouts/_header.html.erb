@@ -1,16 +1,23 @@
 <div class="navbar navbar-fixed-top">
   <div class="navbar-inner">
     <div class="container-fluid">
+      <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </a>
       <a class="brand" href="/">cam fortin</a>
-      <ul class="nav">
-        <li><%= link_to "photos", photos_path %></li>
-        <li><%= link_to "goals", goals_path %></li>
-        <li><%= link_to "about", about_path %></li>
-        <li><%= link_to "blog", blog_path %></li>
-        <li><%= link_to "benny", benny_path %></li>
-        <li><%= link_to "sandbox", sandbox_path %></li>
-        <li><a href="http://twitter.com/#!/camfortin">@camfortin</a></li>
-	</ul>
+      <div class="nav-collapse">
+        <ul class="nav">
+	        <li><%= link_to "photos", photos_path %></li>
+	        <li><%= link_to "goals", goals_path %></li>
+	        <li><%= link_to "about", about_path %></li>
+	        <li><%= link_to "blog", blog_path %></li>
+	        <li><%= link_to "benny", benny_path %></li>
+	        <li><%= link_to "sandbox", sandbox_path %></li>
+	        <li><a href="http://twitter.com/#!/camfortin">@camfortin</a></li>
+        </ul>
+      </div><!--/.nav-collapse -->
     </div>
   </div>
 </div>

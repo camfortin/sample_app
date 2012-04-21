@@ -30,4 +30,12 @@ class PagesController < ApplicationController
   def goals
     @title = "goals"
   end
+  
+  def goals
+    @title = "sandbox"
+  end
+  
+  def fluid
+    @title = "fluid layout"
+  end
 end
