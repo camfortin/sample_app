@@ -1,10 +1,21 @@
-<% benny = image_tag("benny.png", :alt => "Benny and Rick", :class => "round smallpic") %>
-<%= link_to benny, benny_path %>
+<div class="container">
 
-<h2>Benny Love Generator</h2>
+<div class="row" >
+	
+	 <div class="span7 alert alert-info"style="height:150px">
+		<h2><%= random %></h2>
+		<br />
+		<%= link_to "Do it again!", benny_path, :class => "btn btn-large btn-primary" %>
+	</div>
+	
+	<div class="span4 well" height="400px">
+    <h4>Benny Love Generator</h4>
+		<br />
+		<p>Welcome to the family <a href="http://www.theedmondsfamily.com/">benny</a>! If you ever need some love just visit this page and hit the "do it again" button for as long as you want!</p>
+		<p>built with love by your uncle Cam</p>
+	</div>
+	
+</div>
 
-<h2 class="benny round"><%= random %></h2>
-<br>
-<%= link_to "Do it again!", benny_path, :class => "signup_button round" %>
-<br>
-<h6 class="soft">Welcome to the family <a href="http://www.theedmondsfamily.com/">Benny</a>! Have a suggestion or an entry for Benny's love generator? <a href="https://docs.google.com/spreadsheet/embeddedform?formkey=dGZPMExtN3dnVDY2d2dfUFB1SkpUZHc6MQ" class="submit round lightview" data-lightview-type="iframe" data-lightview-options="width: 600, height: 420">Enter it here!</a></h6>
+
+</div>
