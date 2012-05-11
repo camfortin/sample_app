@@ -2,6 +2,11 @@ source 'https://rubygems.org'
 
 gem 'rails', '3.2.3'
 
+gem 'aws-sdk'
+gem 'aws-s3'
+gem 'paperclip', '~> 3.0'
+gem "devise", "~> 2.0.4"
+
 group :development do
   gem 'sqlite3', '1.3.5'
 end
@@ -12,10 +17,9 @@ end
 group :assets do
   gem 'sass-rails',   '3.2.4'
   gem 'coffee-rails', '3.2.2'
-  gem 'therubyracer', :platform => :ruby
-  gem 'uglifier', '1.2.3'
-
   gem 'less-rails-bootstrap'
+  gem 'uglifier', '1.2.3'
+  gem 'therubyracer'
 end
 
 gem 'jquery-rails', '2.0.0'
