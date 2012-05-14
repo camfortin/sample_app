@@ -1,25 +1,40 @@
-<h1>cam's rails app in progress</h1>
-
-<div class="subnav">
-  <ul class="nav nav-pills">
-    <li><%= link_to "benny love generator!", benny_path, :class => "signup_button round" %></li>
-	<li><%= link_to "photos", photos_path, :class => "bloglinks" %></li>
-	<li><%= link_to "goals", goals_path, :class => "bloglinks" %></li>
-	<li><%= link_to "blog", blog_path, :class => "bloglinks" %></li>
-  </ul>
+<div class="row">
+	<div class="span6">
+  <h1 class="happy">Welcome! <small>some of my recent adventures and photos</small></h1>
+	</div>
+	<div class="alert alert-info span4">
+	<button class="close" data-dismiss="alert">×</button>
+	<p><strong>Recent excitingness:</strong> I got featured on <a href="http://wallfood.com/1624/" class="happy">Wallfood</a>, a website to promote bay area photographers!</p>
+	</div>
 </div>
-
-<section id="cam">
-  <div class="page-header">
-    <h1>Welcome <small>thanks for visiting</small></h1>
+<hr>
+<div class="container">
+<div class="row">
+	<div class="span8 offset2">
+		<h4 class="happy" style="padding-bottom:10px">Salmon Fishing out of Half Moon Bay</h4>
+		<a href="http://www.flickr.com/photos/friendshipgoodtimes/7186204838/" title="Half Moon Bay Salmon by camfortin, on Flickr"><img src="http://farm6.staticflickr.com/5453/7186204838_ced3579892_c.jpg" width="100%" alt="Half Moon Bay Salmon"></a>
+		</div>
+		</div>
+		<hr>
+	<div class="row">
+	<div class="span8 offset2">
+	<h4 class="happy" style="padding-bottom:10px">Tiny Sailboat and Big Foggy Bridge</h4>
+	<a href="http://www.flickr.com/photos/friendshipgoodtimes/6842899172/" title="Foggy Golden Gate BW by camfortin, on Flickr"><img src="http://farm8.staticflickr.com/7048/6842899172_bdc934723f_c.jpg" width="100%" alt="Foggy Golden Gate BW"></a>
+	</div>
+</div>
+<hr>
+	<div class="row">
+	<div class="span8 offset2">
+	<h4 class="happy" style="padding-bottom:10px">Lupine Showing Off</h4>
+<a href="http://www.flickr.com/photos/friendshipgoodtimes/7171361000/" title="Golden Gate Bridge and Purple Lupine by camfortin, on Flickr"><img src="http://farm6.staticflickr.com/5444/7171361000_691b4d5357_c.jpg" width="100%" alt="Golden Gate Bridge and Purple Lupine"></a>
   </div>
-  <div class="row">
-    <div class="span3 columns">
-      <h3>About this site</h3>
-      <p>This is my rails 3.2 app in progress.</p>
-      <a href="http://www.twitter.com/#/camfortin" target="_blank" class="btn">Say Hello</a>
-    </div>
-</section>
-
-
-
+	</div>
+</div>
+<hr>
+<div class="alert alert-info">
+	<h3>thanks for visiting!</h3>
+	<p><%= link_to "benny love generator!", benny_path, :class => "signup_button round" %> |
+	<%= link_to "photos", photos_path, :class => "bloglinks" %> |
+	<%= link_to "goals", goals_path, :class => "bloglinks" %> | <%= link_to "blog", blog_path, :class => "bloglinks" %></p>
+</div>
+</div>
