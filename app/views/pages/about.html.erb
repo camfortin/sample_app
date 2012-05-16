@@ -1,42 +1,41 @@
-<h1>About this app and current roadmap</h1>
+<div class="container">
+<h2 class="happy">Hi, I'm Cam!</h2>
+<p><a href="mailto:cam.fortin@gmail.com">email me</a> | <a href="http://www.twitter.com/#!/camfortin">@camfortin</a> | <a href="http://www.steepravine.com">my tumblr</a> | <%= link_to "personal goals", goals_path %></p>
+</div>
 
-<h2>Hi, I'm Cam!</h2>
-<h4><a href="mailto:cam.fortin@gmail.com">email me</a> | <a href="http://www.twitter.com/#!/camfortin">@camfortin</a> | <a href="http://www.funjai.com">my tumblr</a> (mostly photos of mushrooms and the bay area) | <%= link_to "Personal Goals", goals_path %></h4>
+<hr>
 
-<h2>About this App</h2>
+<div class="row">
+<div class="span8 offset1 well">
+	
+<h3>About this App</h3>
 <ul>
 <li>built with ruby on rails, learn more here: <a href="http://railscasts.com/">rails casts</a></li>
 <li>hosted with <a href="http://heroku.com">heroku</a></li>
 <li>repo at <a href="http://www.github.com/camfortin">github</a></li>
-<li>pretty pictures by <a href="http://projects.nickstakenburg.com/lightview/documentation/usage">lightyear</a></li>
+<li>css framework by <a href="http://twitter.github.com/bootstrap/">twitter bootstrap</a></li>
 </ul>
 
-<h2>Site Upgrades</h2>
+<hr>
+
+<h3>Site Upgrades</h3>
 <ul>
-	<li>add twitter bootstrap for styling</li>
-	<li>upgrade to rails 3.2</li>
 	<li>add blog model</li>
 	<li>figure out how to use <a href="http://www.1stwebdesigner.com/css/top-jquery-chart-libraries-interactive-charts/"</a>jquery charts</li>
 	<li>figure out how to use <a href="https://github.com/JoelBesada/scrollpath">scroll path</a></li>
 	<li>wireframe a "projects" page and build it with jquery carousels etc.</li>
 </ul>
 
-
-<h2>Benny App Roadmap</h2>
+<hr>
+<h3>Benny App Roadmap</h3>
 <ul>
 <li>add model: photo url, name, quip</li>
 <li>add input fields so people can add/suggest new entries</li>
 <li>style: picture of benny and nice UI</li>
 </ul>
 
-<h2>Personal Thangs</h2>
-<ul>
-<li>flush out photos section and learn <a href="http://projects.nickstakenburg.com/lightview/documentation/usage">lightyear</a></li>
-<li>pushing to heroku: git push git@heroku.com:camfortin.git</li>
-</ul>
-
-<h2>Embed Google Charts and Docs?</h2>
+<hr>
+<h3>Embed Google Charts and Docs?</h3>
 <p>Feels like you could use google charts + forms + docs = content management system? trying over on <a href="http://www.congregate.co/web-development/benny"</a>congregate.co</a>, my google site sandbox.</p>
-
-<h2>Users...?</h2>
-<%= link_to "Join the Community", signup_path, :class => "signup_button round" %>
+</div>
+</div>
