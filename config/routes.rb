@@ -12,12 +12,16 @@ SampleApp::Application.routes.draw do
 
   match '/contact', :to => 'pages#contact'
   match '/about',   :to => 'pages#about'
-  match '/blog',    :to => 'pages#blog'
+  match '/thoughts',    :to => 'pages#thoughts'
   match '/photos', :to => 'pages#photos'
   match '/benny', :to => 'pages#benny'
   match '/goals', :to => 'pages#goals'
+  
+  #photos
   match '/photos/cascade-falls', :to => 'pages#cascade'
-  match '/fluid', :to => 'pages#fluid'
+
+  #posts
+  match '/thoughts/roll-your-own-kinda', :to => 'pages#thoughts_roll_your_own'
   
   root :to => 'pages#home'
   
