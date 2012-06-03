@@ -1,6 +1,8 @@
 SampleApp::Application.routes.draw do
  
   resources :posts
+  #map.resources :posts
+  #map.connect '/title', :controller => 'posts', :action => 'show'
 
   resources :users
     

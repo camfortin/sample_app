@@ -1,28 +1,3 @@
-<head>
-    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
-    <script type="text/javascript">
-      google.load("visualization", "1", {packages:["corechart"]});
-      google.setOnLoadCallback(drawChart);
-      function drawChart() {
-        var data = google.visualization.arrayToDataTable([
-          ['Activity', 'Probability'],
-          ['Project Mgmt and Analytics',     45],
-          ['Photos', 10],
-					['Cary, Friendship & Good Times', 20],
-          ['Hiking in Marin',    10],
-					['Learning to Code',	12],
-        ]);
-
-        var options = {
-          title: 'How I spend my week'
-        };
-
-        var chart = new google.visualization.PieChart(document.getElementById('chart_div'));
-        chart.draw(data, options);
-      }
-    </script>
-  </head>
-
 <div class="container">
 <h2 class="happy">Hi, I'm Cam!</h2>
 <p><a href="mailto:cam.fortin@gmail.com">email me</a> | <a href="http://www.twitter.com/#!/camfortin">@camfortin</a> | <a href="http://www.steepravine.com">my tumblr</a> | <%= link_to "personal goals", goals_path %></p>
@@ -31,7 +6,7 @@
 <hr>
 
 <div class="row">
-<div class="span6">
+<div class="span8 offset2">
 <div class="well">
 <h3>About this App</h3>
 <ul>
@@ -59,12 +34,7 @@
 <li>style: picture of benny and nice UI</li>
 </ul>
 
-<hr>
-<h3>Embed Google Charts and Docs?</h3>
-<p>Feels like you could use google charts + forms + docs = content management system? trying over on <a href="http://www.congregate.co/web-development/benny"</a>congregate.co</a>, my google site sandbox.</p>
 </div>
 </div>
-<div class="span6">
-<div id="chart_div" style="width: 100%;"></div>
-</div>
+
 </div>
