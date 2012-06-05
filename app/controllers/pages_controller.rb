@@ -8,7 +8,7 @@ class PagesController < ApplicationController
   end
 
   def about
-    @title = "about"  
+    @title = "about this app"  
   end
   
   def blog
@@ -28,14 +28,7 @@ class PagesController < ApplicationController
   end
   
   def goals
-    @title = "goals"
+    @title = "cam's goals"
   end
-  
-  def goals
-    @title = "sandbox"
-  end
-  
-  def fluid
-    @title = "fluid layout"
-  end
+
 end

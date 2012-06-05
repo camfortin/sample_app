@@ -4,6 +4,7 @@ gem 'rails', '3.2.3'
 
 gem 'twitter'
 gem 'stringex'
+gem 'acts-as-taggable-on', '~> 2.3.1'
 
 gem 'aws-sdk'
 gem 'aws-s3'
