@@ -1,6 +1,4 @@
 SampleApp::Application.routes.draw do
- 
-  devise_for :admins
 
   resources :posts
   #map.resources :posts

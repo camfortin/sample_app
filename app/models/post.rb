@@ -1,4 +1,5 @@
 class Post < ActiveRecord::Base
+    
   attr_accessible :content, :title, :category, :tag_list
   acts_as_taggable
   acts_as_url :title
