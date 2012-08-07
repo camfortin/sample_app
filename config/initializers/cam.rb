@@ -1,0 +1,1 @@
+#NAME = Rails.root.join("config/cam.yml")

@@ -1,0 +1,12 @@
+==  CreateUsers: migrating ====================================================
+-- drop_table(:users)
+   -> 0.0011s
+-- create_table(:users)
+   -> 0.0010s
+==  CreateUsers: migrated (0.0022s) ===========================================
+
+==  AddEmailUniquenessIndex: migrating ========================================
+-- add_index(:users, :email, {:unique=>true})
+   -> 0.0010s
+==  AddEmailUniquenessIndex: migrated (0.0011s) ===============================
+
