@@ -1,5 +1,10 @@
 SampleApp::Application.routes.draw do
 
+  #root :to => 'pages#home'
+  root :to => 'home#index'
+  
+  match '/art', :to => 'art#index'
+  
   resources :posts
   #map.resources :posts
   #map.connect '/title', :controller => 'posts', :action => 'show'
@@ -24,8 +29,6 @@ SampleApp::Application.routes.draw do
 
   #posts
   match '/thoughts/roll-your-own-kinda', :to => 'pages#thoughts_roll_your_own'
-  
-  root :to => 'pages#home'
   
 end
 
